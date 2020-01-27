@@ -1,0 +1,77 @@
+PRANAVASREE@PRANAVASREE MINGW64 ~/documents/code (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app.py
+
+
+PRANAVASREE@PRANAVASREE MINGW64 ~/documents/code (master)
+$ git commit -m "Created a simple Flask application"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'PRANAVASREE@PRANAVASREE.(none)')
+
+PRANAVASREE@PRANAVASREE MINGW64 ~/documents/code (master)
+$ ^C
+
+PRANAVASREE@PRANAVASREE MINGW64 ~/documents/code (master)
+$ git config --global user.email "pranavareddy27@gmail.com"
+
+PRANAVASREE@PRANAVASREE MINGW64 ~/documents/code (master)
+$ git config --global user.name "pranavasree"
+
+PRANAVASREE@PRANAVASREE MINGW64 ~/documents/code (master)
+$ git commit -m "Created a simple Flask application"
+[master (root-commit) 14e0b9f] Created a simple Flask application
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 app.py
+
+PRANAVASREE@PRANAVASREE MINGW64 ~/documents/code (master)
+$ git remote add origin https://github.com/pranavasree/pranava27.git
+
+PRANAVASREE@PRANAVASREE MINGW64 ~/documents/code (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+PRANAVASREE@PRANAVASREE MINGW64 ~/documents/code (master)
+$
+
+PRANAVASREE@PRANAVASREE MINGW64 ~/documents/code (master)
+$
+
+PRANAVASREE@PRANAVASREE MINGW64 ~/documents/code (master)
+$ git push --set-upstream origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 227 bytes | 113.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/pranavasree/pranava27.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+PRANAVASREE@PRANAVASREE MINGW64 ~/documents/code (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+PRANAVASREE@PRANAVASREE MINGW64 ~/documents/code (master)
+$
